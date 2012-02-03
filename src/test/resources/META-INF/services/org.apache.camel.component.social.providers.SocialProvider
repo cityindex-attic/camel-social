@@ -1,0 +1,3 @@
+org.apache.camel.component.social.providers.twitter.TwitterProvider
+org.apache.camel.component.social.providers.facebook.FacebookProvider
+org.apache.camel.component.social.providers.foursquare.FoursquareProvider
