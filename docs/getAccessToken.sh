@@ -1,0 +1,1 @@
+open "https://www.facebook.com/dialog/oauth?client_id=222176404543774&redirect_uri=http://davidlaing.com"

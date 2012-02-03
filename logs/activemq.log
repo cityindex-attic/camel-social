@@ -1,0 +1,801 @@
+2012-02-03 16:57:14,393 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 16:57:14 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 16:58:37,672 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 16:58:37,709 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 16:58:37 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 16:59:39,148 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 16:59:39,185 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 16:59:39 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:14,138 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:00:14,174 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:00:14 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:14,605 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@da6bf4: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:14,656 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@814013] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:14,658 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@de1b8a] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:14,888 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:00:14,909 | DEBUG | Probably not using JRE 1.4: mx4j.tools.naming.NamingService | org.apache.activemq.broker.jmx.ManagementContext | main
+2012-02-03 17:00:14,915 | DEBUG | Starting JMXConnectorServer... | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:00:15,160 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:00:15,167 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:00:15,275 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:00:15,312 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:00:15,312 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:00:15,478 | INFO  | Listening for connections at: tcp://localhost:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:00:15,479 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:00:15,481 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-41572-1328288415334-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:00:15,484 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@d6b059] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:20,312 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:20,436 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:25,439 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:25,503 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:30,506 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:30,562 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:35,566 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:35,628 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:40,633 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:40,698 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:45,700 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:45,762 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:50,766 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:50,827 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:00:54,019 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-41572-1328288415334-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:00:54,019 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:00:54,020 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-41572-1328288415334-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,020 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,020 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,025 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,025 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,025 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,035 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,036 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,064 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:00:54,341 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-41572-1328288415334-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:00:55,529 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:00:55,530 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-41572-1328288415334-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:00:56,370 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:00:56,409 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:00:56 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:56,845 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@da6bf4: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:56,891 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@814013] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:56,893 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@de1b8a] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:00:56,993 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:00:57,002 | DEBUG | Probably not using JRE 1.4: mx4j.tools.naming.NamingService | org.apache.activemq.broker.jmx.ManagementContext | main
+2012-02-03 17:00:57,010 | DEBUG | Starting JMXConnectorServer... | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:00:57,114 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:00:57,115 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:01:00,921 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:01:00,934 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:01:01,134 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:01:01,134 | INFO  | Recovery replayed 1 operations from the journal in 0.184 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:01:01,355 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:01:01,356 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:01:01,696 | INFO  | Listening for connections at: tcp://localhost:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:01:01,696 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:01:01,698 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-44044-1328288461484-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:01:01,715 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@b32ed4] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:01:05,997 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:06,106 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:11,109 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:11,195 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:16,199 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:16,268 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:21,273 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:21,339 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:26,343 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:26,409 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:31,414 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:31,497 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:36,501 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:36,641 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:41,645 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:41,702 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:01:44,158 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-44044-1328288461484-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:01:44,159 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:01:44,158 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-44044-1328288461484-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:01:44,159 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:01:44,159 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:01:44,262 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | Thread-4
+2012-02-03 17:01:44,262 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-4
+2012-02-03 17:01:44,262 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-4
+2012-02-03 17:01:44,262 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-4
+2012-02-03 17:01:44,263 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | Thread-4
+2012-02-03 17:01:44,288 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | Thread-4
+2012-02-03 17:01:44,861 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-44044-1328288461484-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:01:45,762 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:01:45,763 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-44044-1328288461484-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:01:46,601 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:01:46,637 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:01:46 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:12:03,669 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:12:03,706 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:12:03 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:14:06,014 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:14:06,050 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:14:06 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:16:40,766 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:16:40,802 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:16:40 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:20:26,489 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:20:26,526 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:20:26 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:21:38,527 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:21:38,562 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:21:38 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:22:11,988 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:22:12,026 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:22:12 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:22:12,468 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@da6bf4: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:22:12,513 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@814013] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:22:12,515 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@de1b8a] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:22:12,616 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:22:12,627 | DEBUG | Probably not using JRE 1.4: mx4j.tools.naming.NamingService | org.apache.activemq.broker.jmx.ManagementContext | main
+2012-02-03 17:22:12,634 | DEBUG | Starting JMXConnectorServer... | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:22:12,732 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:22:12,751 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:22:13,496 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:22:13,499 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:22:13,513 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:22:13,513 | INFO  | Recovery replayed 1 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:22:13,520 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:22:13,520 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:22:13,681 | INFO  | Listening for connections at: tcp://localhost:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:22:13,682 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:22:13,683 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-49433-1328289733539-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:22:13,686 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@94257f] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:22:18,513 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:18,573 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:23,575 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:23,655 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:28,659 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:28,716 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:33,721 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:33,781 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:38,786 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:38,848 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:43,852 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:43,920 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:48,923 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:48,980 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:53,984 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:54,052 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:59,056 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:22:59,117 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:04,121 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:04,188 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:09,191 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:09,261 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:14,264 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:14,335 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:19,337 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:19,395 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:24,398 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:24,458 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:23:25,620 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-49433-1328289733539-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:23:25,621 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:23:25,621 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-49433-1328289733539-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,621 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,621 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,625 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,625 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,626 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,626 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,632 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,696 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:23:25,771 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:23:25,781 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-49433-1328289733539-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:23:25,961 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-49433-1328289733539-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:23:27,939 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:23:27,975 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:23:27 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:30:01,018 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:30:01,054 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:30:01 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:30:01,476 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@da6bf4: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:30:01,518 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@814013] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:30:01,520 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@de1b8a] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:30:01,619 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:30:01,628 | DEBUG | Probably not using JRE 1.4: mx4j.tools.naming.NamingService | org.apache.activemq.broker.jmx.ManagementContext | main
+2012-02-03 17:30:01,636 | DEBUG | Starting JMXConnectorServer... | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:30:01,732 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:30:01,740 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:30:02,534 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:30:02,536 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:30:02,550 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:30:02,551 | INFO  | Recovery replayed 1 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:30:02,557 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:30:02,557 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:30:02,722 | INFO  | Listening for connections at: tcp://localhost:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:30:02,722 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:30:02,724 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-44660-1328290202577-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:30:02,726 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@29c58e] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:30:07,543 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:07,552 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:12,554 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:12,585 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:17,588 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:17,606 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:22,608 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:22,645 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:27,648 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:27,667 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:32,670 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:32,692 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:37,697 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:37,715 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:42,720 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:42,879 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:47,882 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:47,945 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:52,947 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:53,012 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:58,015 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:30:58,079 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:03,084 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:03,142 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:08,147 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:08,235 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:13,239 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:13,298 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:18,301 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:18,363 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:23,366 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:23,529 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:28,533 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:28,596 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:33,099 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:33,165 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:38,170 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:38,248 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:43,252 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:43,318 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:48,322 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:48,389 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:53,391 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:53,451 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:58,454 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:31:58,517 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:03,519 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:03,582 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:08,586 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:08,653 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:13,658 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:13,724 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:18,727 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:18,754 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:23,758 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:23,829 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:28,833 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:28,855 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:33,861 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:33,912 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:38,915 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:39,090 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:44,094 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:44,153 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:49,156 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:49,221 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:54,223 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:54,287 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:59,294 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:32:59,593 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:04,095 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:04,164 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:09,168 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:09,187 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:14,190 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:14,246 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:19,250 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:19,314 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:24,317 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:24,379 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:29,383 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:29,445 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:34,447 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:34,512 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:39,516 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:39,671 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:44,673 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:44,729 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:49,734 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:49,796 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:54,798 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:54,861 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:59,866 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:33:59,929 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:04,932 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:04,990 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:09,992 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:10,053 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:15,059 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:15,113 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:20,118 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:20,177 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:25,181 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:25,246 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:30,252 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:30,315 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:35,319 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:35,380 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:40,382 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:40,444 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:45,448 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:45,510 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:50,513 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:50,582 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:55,585 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:34:55,649 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:00,652 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:00,719 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:05,722 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:05,786 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:10,791 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:10,810 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:15,815 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:15,882 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:20,887 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:20,906 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:25,908 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:26,028 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:31,033 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:31,052 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:36,054 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:36,113 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:41,117 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:41,286 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:46,291 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:46,351 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:51,356 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:51,423 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:56,430 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:35:56,494 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:01,497 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:01,568 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:06,070 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:06,136 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:11,138 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:11,206 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:16,209 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:16,267 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:21,270 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:21,335 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:26,339 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:26,412 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:31,416 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:31,437 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:36,439 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:36,502 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:41,506 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:41,572 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:46,575 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:46,641 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:51,646 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:51,711 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:56,715 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:36:56,777 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:01,782 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:01,848 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:06,854 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:06,926 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:11,929 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:11,996 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:16,999 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:17,017 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:22,022 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:22,092 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:27,096 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:27,168 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:32,171 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:32,241 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:37,246 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:37,265 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:42,268 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:42,335 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:47,338 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:47,411 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:52,415 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:52,455 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:57,459 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:37:57,476 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:02,480 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:02,498 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:07,502 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:07,522 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:12,524 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:12,544 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:17,548 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:17,566 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:22,569 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:22,587 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:27,593 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:27,611 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:32,614 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:32,683 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:37,687 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:37,707 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:42,709 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:42,893 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:47,898 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:47,958 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:52,963 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:53,020 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:58,024 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:38:58,082 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:03,087 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:03,145 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:08,149 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:08,168 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:13,171 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:13,227 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:18,230 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:18,295 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:23,299 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:23,364 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:28,366 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:28,429 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:33,433 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:33,493 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:38,498 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:38,557 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:43,561 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:43,625 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:48,630 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:48,695 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:53,698 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:53,758 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:58,761 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:39:58,821 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:03,825 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:03,890 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:08,894 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:08,966 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:13,969 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:14,032 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:19,034 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:19,097 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:24,099 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:24,160 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:29,165 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:29,229 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:34,232 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:34,300 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:39,305 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:39,371 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:44,373 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:44,435 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:49,438 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:49,498 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:54,502 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:54,561 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:59,565 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:40:59,660 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:04,665 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:04,721 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:09,723 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:09,791 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:14,795 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:14,858 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:19,861 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:19,919 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:24,922 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:24,991 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:29,994 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:30,061 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:35,063 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:35,123 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:41:38,620 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-44660-1328290202577-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:41:38,620 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:41:38,621 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-44660-1328290202577-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,621 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,621 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,625 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,625 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,625 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,625 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,626 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:41:38,706 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:41:39,134 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-44660-1328290202577-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:41:39,484 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:41:39,484 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-44660-1328290202577-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:41:40,931 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:41:40,966 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:41:40 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:42:27,316 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:42:27,352 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:42:27 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:42:50,117 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:42:50,153 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:42:50 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:02,122 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:43:02,156 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:43:02 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:42,388 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:43:42,426 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:43:42 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:57,424 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:43:57,464 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:43:57 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:57,894 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@da6bf4: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:57,936 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@814013] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:57,938 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@de1b8a] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:43:58,037 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:43:58,046 | DEBUG | Probably not using JRE 1.4: mx4j.tools.naming.NamingService | org.apache.activemq.broker.jmx.ManagementContext | main
+2012-02-03 17:43:58,054 | DEBUG | Starting JMXConnectorServer... | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:43:58,207 | INFO  | JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi | org.apache.activemq.broker.jmx.ManagementContext | JMX connector
+2012-02-03 17:43:58,208 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:43:58,964 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:43:58,966 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:43:58,979 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:43:58,980 | INFO  | Recovery replayed 1 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:43:58,986 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:43:58,986 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:43:59,150 | INFO  | Listening for connections at: tcp://localhost:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:43:59,151 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:43:59,153 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-39567-1328291039005-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:43:59,155 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@94257f] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:44:03,978 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:04,028 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:09,032 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:09,107 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:14,110 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:14,225 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:19,230 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:19,297 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:24,301 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:24,396 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:29,400 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:29,462 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:34,465 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:34,533 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:39,537 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:39,598 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:44,601 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:44,659 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:49,662 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:49,763 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:54,766 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:54,823 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:59,826 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:44:59,891 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:45:04,895 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:45:04,956 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:45:09,960 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:45:10,021 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:45:13,692 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-39567-1328291039005-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:45:13,692 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:45:13,692 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-39567-1328291039005-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,692 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,692 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,695 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,695 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,695 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,696 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,696 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:45:13,772 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:45:14,031 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-39567-1328291039005-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:45:15,248 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:45:15,248 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-39567-1328291039005-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:45:16,020 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:45:16,060 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:45:16 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:45:57,930 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:45:57,966 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:45:57 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:11,830 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:47:11,865 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:47:11 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:12,348 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@384065: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:12,397 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@737371] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:12,401 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1fe88d] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:12,567 | WARN  | destroyApplicationContextOnStop parameter is deprecated, please use shutdown hooks instead | org.apache.activemq.xbean.XBeanBrokerService | main
+2012-02-03 17:47:12,570 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:47:12,605 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:47:13,347 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:47:13,348 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:47:13,362 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:47:13,362 | INFO  | Recovery replayed 1 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:47:13,368 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:47:13,369 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:47:13,561 | INFO  | Listening for connections at: tcp://wp-appliance:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:47:13,561 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:47:13,563 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-53772-1328291233392-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:47:13,566 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@14a18d] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:18,360 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:18,483 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:23,489 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:23,517 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:28,521 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:28,587 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:33,593 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:33,658 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:38,661 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:38,727 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:47:39,970 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-53772-1328291233392-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:47:39,970 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:47:39,970 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-53772-1328291233392-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,970 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,970 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,973 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,973 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,973 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,973 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:47:39,974 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:47:40,004 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:47:40,235 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-53772-1328291233392-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:47:41,607 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:47:41,608 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-53772-1328291233392-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:47:42,299 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:47:42,335 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:47:42 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:47:42,818 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@10bbf9e: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:48:14,535 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:48:14,570 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:48:14 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:48:15,051 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@384065: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:48:15,099 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@737371] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:48:15,101 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1fe88d] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:48:15,213 | WARN  | destroyApplicationContextOnStop parameter is deprecated, please use shutdown hooks instead | org.apache.activemq.xbean.XBeanBrokerService | main
+2012-02-03 17:48:15,216 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:48:15,251 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:48:16,007 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:48:16,008 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:48:16,023 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:48:16,023 | INFO  | Recovery replayed 1 operations from the journal in 0.012 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:48:16,030 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:48:16,030 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:48:16,188 | INFO  | Listening for connections at: tcp://wp-appliance:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:48:16,189 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:48:16,190 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-33788-1328291296047-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:48:16,193 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@14a18d] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:48:21,023 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:21,092 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:26,095 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:26,171 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:31,174 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:31,237 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:36,241 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:36,301 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:41,304 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:41,370 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:46,374 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:46,438 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:51,442 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:51,504 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:56,506 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:48:56,566 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:01,568 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:01,627 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:06,633 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:06,692 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:11,695 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:11,762 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:16,765 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:17,142 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:20,666 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-33788-1328291296047-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:49:20,667 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:49:20,667 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-33788-1328291296047-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,667 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,667 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,674 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,674 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,674 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,674 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,675 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:49:20,743 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:49:21,151 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-33788-1328291296047-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:49:22,269 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:49:22,269 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-33788-1328291296047-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:49:22,985 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:49:23,022 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:49:23 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:49:23,499 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@10bbf9e: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:49:23,639 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@17f242c] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:49:23,642 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7f5580] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:49:23,733 | WARN  | destroyApplicationContextOnStop parameter is deprecated, please use shutdown hooks instead | org.apache.activemq.xbean.XBeanBrokerService | main
+2012-02-03 17:49:23,737 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:49:23,773 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:49:24,530 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:49:24,531 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:49:24,544 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:49:24,544 | INFO  | Recovery replayed 1 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:49:24,550 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:49:24,550 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:49:24,713 | INFO  | Listening for connections at: tcp://wp-appliance:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:49:24,714 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:49:24,716 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-43398-1328291364567-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:49:24,719 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@82751] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:49:29,543 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:29,601 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:34,605 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:34,673 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:39,676 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:39,740 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:44,745 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:44,810 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:49,814 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:49,876 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:54,879 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:54,935 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:49:59,940 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:00,009 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:05,012 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:05,072 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:10,076 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:10,142 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:15,145 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:15,212 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:20,215 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:20,277 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:25,281 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:25,343 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:30,347 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:30,413 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:35,417 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:35,442 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:50:36,971 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-43398-1328291364567-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:50:36,971 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:50:36,972 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-43398-1328291364567-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:50:36,972 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:50:36,972 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:50:36,975 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | Thread-4
+2012-02-03 17:50:36,975 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-4
+2012-02-03 17:50:36,975 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-4
+2012-02-03 17:50:36,975 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-4
+2012-02-03 17:50:36,976 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | Thread-4
+2012-02-03 17:50:37,051 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | Thread-4
+2012-02-03 17:50:37,452 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-43398-1328291364567-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:50:38,804 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:50:38,805 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-43398-1328291364567-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:50:41,291 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:50:41,333 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:50:41 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:52:42,191 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:52:42,229 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:52:42 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:52:42,736 | DEBUG | Bean factory for org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: org.springframework.beans.factory.support.DefaultListableBeanFactory@513d61: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.apache.activemq.xbean.XBeanBrokerService#0]; root of factory hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:52:42,812 | DEBUG | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@17f242c] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:52:42,815 | DEBUG | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7f5580] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:52:42,906 | WARN  | destroyApplicationContextOnStop parameter is deprecated, please use shutdown hooks instead | org.apache.activemq.xbean.XBeanBrokerService | main
+2012-02-03 17:52:42,910 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage started | org.apache.activemq.store.kahadb.plist.PListStore | main
+2012-02-03 17:52:42,947 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/var/lib/activemq/camel-social/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:52:43,764 | INFO  | KahaDB is version 3 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:52:43,765 | DEBUG | loading | org.apache.kahadb.index.BTreeIndex | main
+2012-02-03 17:52:43,780 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:52:43,780 | INFO  | Recovery replayed 1 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2012-02-03 17:52:43,786 | INFO  | ActiveMQ 5.5.0 JMS Message Broker (localhost) is starting | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:52:43,786 | INFO  | For help or more information please see: http://activemq.apache.org/ | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:52:43,947 | INFO  | Listening for connections at: tcp://wp-appliance:61616 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2012-02-03 17:52:43,948 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2012-02-03 17:52:43,950 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-45679-1328291563804-0:1) started | org.apache.activemq.broker.BrokerService | main
+2012-02-03 17:52:43,953 | DEBUG | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@82751] | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:52:48,778 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:52:49,335 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:52:53,839 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:52:53,908 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:52:58,912 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:52:59,030 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:04,034 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:04,099 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:09,102 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:09,164 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:14,169 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:14,231 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:19,234 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:19,331 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:24,334 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:24,398 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:29,402 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:29,461 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:34,465 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:34,587 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:39,594 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:39,660 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:44,663 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:44,729 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:49,731 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:49,751 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:54,755 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:54,814 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:59,819 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:53:59,875 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:04,878 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:05,046 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:10,051 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:10,116 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:15,119 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:15,176 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:20,182 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:20,253 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:25,256 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:25,328 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:30,333 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:30,400 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ Journal Checkpoint Worker
+2012-02-03 17:54:34,255 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-45679-1328291563804-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:54:34,256 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:54:34,261 | INFO  | ActiveMQ Message Broker (localhost, ID:wp-appliance-45679-1328291563804-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,261 | DEBUG | Caught exception, must be shutting down: java.lang.IllegalStateException: Shutdown in progress | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,262 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,266 | INFO  | PListStore:/var/lib/activemq/camel-social/data/localhost/tmp_storage stopped | org.apache.activemq.store.kahadb.plist.PListStore | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,266 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,268 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,268 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,269 | DEBUG | Checkpoint started. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,339 | DEBUG | Checkpoint done. | org.apache.activemq.store.kahadb.MessageDatabase | ActiveMQ ShutdownHook
+2012-02-03 17:54:34,481 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-45679-1328291563804-0:1) stopped | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2012-02-03 17:54:36,117 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-4
+2012-02-03 17:54:36,119 | INFO  | ActiveMQ JMS Message Broker (localhost, ID:wp-appliance-45679-1328291563804-0:1) stopped | org.apache.activemq.broker.BrokerService | Thread-4
+2012-02-03 17:54:38,570 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:54:38,605 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:54:38 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2012-02-03 17:55:55,493 | DEBUG | Now attempting to figure out the type of resource: activemq.xml | org.apache.activemq.xbean.XBeanBrokerFactory | main
+2012-02-03 17:55:55,529 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a61164: startup date [Fri Feb 03 17:55:55 UTC 2012]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
