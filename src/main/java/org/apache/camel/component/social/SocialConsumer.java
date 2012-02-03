@@ -75,7 +75,12 @@ public class SocialConsumer extends ScheduledPollConsumer implements Processor {
 	@Override
 	public void resume() {
 		startedOn = System.currentTimeMillis();
-		super.resume();
+		try {
+			super.resume();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
